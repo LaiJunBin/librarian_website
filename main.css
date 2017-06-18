@@ -1,0 +1,19 @@
+.classTb{
+    background:#09f;
+    border-radius:12%;
+    border:0px;
+}
+.classTb td>a>div:hover{
+    background:#ff0;
+    color:red;
+    cursor:pointer;
+}
+.classTb td>a>div{
+    color:#fff;
+}
+.tdSelected{
+    background:#0f9;
+}
+.tdSelected>a>div:hover{
+    background:#0f9!important;
+}
