@@ -17,7 +17,7 @@
     <script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
     <script src="./dist/js/bootstrap.js"></script>
 </head>
-<body style="background:#eee;">
+<body style="background:#eee;padding-bottom:60px;">
 <nav class="navbar navbar-default">
   <div class="container-fluid">
     <!-- Brand and toggle get grouped for better mobile display -->
