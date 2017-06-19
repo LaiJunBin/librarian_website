@@ -1,19 +1,65 @@
-.classTb{
-    background:#09f;
-    border-radius:12%;
-    border:0px;
+.classTb {
+    background: #09f;
+    border-radius: 12%;
+    border: 0px;
 }
-.classTb td>a>div:hover{
-    background:#ff0;
-    color:red;
-    cursor:pointer;
+
+.classTb td>a>div:hover {
+    background: #ff0;
+    color: red;
+    cursor: pointer;
 }
-.classTb td>a>div{
-    color:#fff;
+
+.classTb td>a>div {
+    color: #fff;
 }
-.tdSelected{
-    background:#0f9;
+
+.tdSelected {
+    background: #0f9;
 }
-.tdSelected>a>div:hover{
-    background:#0f9!important;
+
+.tdSelected>a>div:hover {
+    background: #0f9!important;
+}
+
+content {
+    display: block;
+    padding: 9.5px;
+    margin: 0 0 10px;
+    font-size: 13px;
+    line-height: 1.42857143;
+    color: #333;
+    word-break: break-all;
+    word-wrap: break-word;
+    background-color: #f5f5f5;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    text-align: left;
+}
+
+content {
+    padding: 0;
+    font-size: inherit;
+    color: inherit;
+    white-space: pre-wrap;
+    background-color: transparent;
+    border-radius: 0;
+}
+
+content {
+    overflow: auto;
+}
+
+code,
+kbd,
+content,
+samp {
+    font-family: monospace, monospace;
+    font-size: 1em;
+}
+
+pre,
+blockquote {
+    border: 1px solid #999;
+    page-break-inside: avoid;
 }
